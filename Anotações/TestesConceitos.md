@@ -11,4 +11,7 @@
 
 ### Teste Unitário
 **Conceito:** É um trecho de código, que executa outro trecho de código e verifica se executou corretamente.
-<img> <img>
+
+<p style="text-align:center;">
+  <img src="Img/TesteUnitarioConceito1.png" width="510"> <img src="Img/TesteUnitarioConceito2.png" width="490">
+</p>
