@@ -26,7 +26,7 @@ As marcas de seleção verdes expandem os resultados do teste para confirmar que
 
 > Foi aprovado
 
-<img src="Img/RunJUnitFalha.png" height="300">
+<img src="Img/RunJUnitFalha.png" height="200">
 
 > Uma única asserção com falha, falha em todo o teste e você é direcionado para a linha da asserção com falha.
 
@@ -44,15 +44,17 @@ Ao contrário do teste local, este teste é executado em um dispositivo. Cada um
 
 > Foi aprovado
 
-<img src="Img/InstrumentedRunFalha.png" height="400">
+<img src="Img/InstrumentedRunFalha.png" height="200">
 
 > Uma única asserção com falha, falha em todo o teste e você é direcionado para a linha da asserção com falha.
 
 ## Gerar stubs de teste
-O Android Studio oferece ferramentas para gerar stubs de teste para ajudá-lo a implementar os testes para essa função.
-<video height="240">
-  <source src="Video/GerarStubs.mp4" type="GerarStubs/mp4">
-</video>
+O Android Studio oferece ferramentas para gerar stubs de teste para ajudá-lo a implementar os testes para essa função
+
+
+
+https://user-images.githubusercontent.com/82965842/190407968-d3a420fc-d423-42d6-a976-829f7df3e670.mp4
+
 
 [1]: https://developer.android.com/codelabs/advanced-android-kotlin-training-testing-basics#4
 [2]: https://developer.android.com/studio/test/command-line
