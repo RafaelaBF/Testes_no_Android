@@ -16,16 +16,17 @@ No Android Studio, os testes locais são representados por um ícone de triângu
 
 ### Maneiras de executar testes
 O diagrama abaixo mostra algumas outras maneiras de executar testes no Android Studio. Cada um é explicado no link abaixo.
-<img src="Img/ManeiraDeExecutar.png">
+
+<img src="Img/ManeiraDeExecutar.png" height="200">
 
 ### Saída no Run
 As marcas de seleção verdes expandem os resultados do teste para confirmar que um teste chamado “addition_isCorrect” foi aprovado ou não.
 
-<img src="Img/RunJUnitAprovado.png">
+<img src="Img/RunJUnitAprovado.png" height="200">
 
 > Foi aprovado
 
-<img src="Img/RunJUnitFalha.png">
+<img src="Img/RunJUnitFalha.png" height="300">
 
 > Uma única asserção com falha, falha em todo o teste e você é direcionado para a linha da asserção com falha.
 
@@ -35,21 +36,23 @@ No Android Studio, os testes instrumentados são representados por um Android co
 
 ### Maneiras de executar testes
 Ao contrário do teste local, este teste é executado em um dispositivo. Cada um é explicado no link abaixo.
-<img src="Img/ManeiraDeExecutar.png">
+<img src="Img/ManeiraDeExecutar.png" height="200">
 
 ### Saída no Run
 
-<img src="Img/InstrumentalRunAprovado.png">
+<img src="Img/InstrumentalRunAprovado.png" height="200">
 
 > Foi aprovado
 
-<img src="Img/InstrumentedRunFalha.png">
+<img src="Img/InstrumentedRunFalha.png" height="400">
 
 > Uma única asserção com falha, falha em todo o teste e você é direcionado para a linha da asserção com falha.
 
 ## Gerar stubs de teste
 O Android Studio oferece ferramentas para gerar stubs de teste para ajudá-lo a implementar os testes para essa função.
-<video>
+<video height="240">
+  <source src="Video/GerarStubs.mp4" type="GerarStubs/mp4">
+</video>
 
 [1]: https://developer.android.com/codelabs/advanced-android-kotlin-training-testing-basics#4
 [2]: https://developer.android.com/studio/test/command-line
