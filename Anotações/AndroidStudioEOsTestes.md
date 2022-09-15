@@ -16,7 +16,7 @@ No Android Studio, os testes locais são representados por um ícone de triângu
 
 ### Maneiras de executar testes
 O diagrama abaixo mostra algumas outras maneiras de executar testes no Android Studio. Cada um é explicado no link abaixo.
-<img src="Img/">
+<img src="Img/ManeiraDeExecutar.png">
 
 ### Saída no Run
 As marcas de seleção verdes expandem os resultados do teste para confirmar que um teste chamado “addition_isCorrect” foi aprovado ou não.
@@ -35,7 +35,7 @@ No Android Studio, os testes instrumentados são representados por um Android co
 
 ### Maneiras de executar testes
 Ao contrário do teste local, este teste é executado em um dispositivo. Cada um é explicado no link abaixo.
-<img src="Img/">
+<img src="Img/ManeiraDeExecutar.png">
 
 ### Saída no Run
 
