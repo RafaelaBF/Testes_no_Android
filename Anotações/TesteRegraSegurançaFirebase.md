@@ -19,9 +19,10 @@ Com essa mentalidade, podemos fazer varios teste de diversos cenarios para que o
 **Projeto do Firebase** com regra de segurança. <br>
 
 ## Primeiros passos
-- Inicializar o Firebase
-- Inicializar o Emulador
+- Inicializar o Firebase `firebase init`
 - Criar um diretorio na raiz chamado test, onde vão estar os arquivos em js
+
+Digitar na pasta test:
 - Dentro da pasta test, digitar `npm init` para configurar as coisas.
 - Manter a maioria dos padrões (exeto em casos muitos especificos), os que precisão ser configurados são:
   -   description: com a descrição do test
@@ -31,6 +32,15 @@ Com essa mentalidade, podemos fazer varios teste de diversos cenarios para que o
   -  `npm install mocha --save-dev` para chamar o macha
   -  `npm install @firebase/testing` --save-dev para facilitar o teste com o firebase
 Terminando isso as configurações iniciais estão prontas, agora é só abrir o VSCode.
+
+> Observações: Essas configurações devem ser seguidas toda vez que um projeto novo está na sua máquina. Mesmo que o aquivo teste.js já esteja criado você deve seguir os passos para instalar os pacotes de confiruraçao, que não deve ser subidos para o git.
+<img src="Img/ArquivoDeConfiguracaoTestJSRegraSeguranca.jpg" height="200">
+
+## Run teste
+- Inicializar o Emulador `firebase emulators:start`
+
+Digitar na pasta test:
+- Rodar o teste `npm test`
 
 ## Mocha
 Basicamente um framework JavaScripit que torna a escrita de um teste unitário muito mais fácil.
